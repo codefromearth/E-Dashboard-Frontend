@@ -1,0 +1,119 @@
+/* .App {
+  text-align: center;
+} */
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.nav-ul li{
+ 
+  display: inline-block;
+  padding: 20px;
+  
+  } 
+
+  .nav-ul li a{
+   
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+  } 
+  .nav-ul{
+    background-color: skyblue;
+    margin: 0px;
+  }
+  .e_footer {
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    background-color: skyblue;
+    
+  
+   
+   
+  }
+  .inputbox{
+    display: block;
+    margin: 25px;
+    padding: 7px;
+    width: 300px;
+    border: 1px solid;
+    align-items: center;
+  }
+  .signupbox{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-right{
+    text-align: right;
+  }
+.logo{
+  float: left;
+  color: chocolate;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+  border: 2px solid rgb(241, 180, 12);
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+  .product{
+   margin-left: 35%;
+  }
+
+  .btn{
+    margin-left: 15%;
+    margin-top: 30px;
+   
+  }
+
+  .invalid {
+    margin: -21px;
+    color: red;
+    margin-left: 35px;
+    display: block;
+}
+.product_list{
+  text-align: center;
+  list-style-type: none;
+  margin: 20px;
+
+}
+.product_list ul li{
+  display:inline-block;
+  border: 1px solid skyblue;
+  padding: 5px;
+  width: 130px;
+  height: 30px;
+}
+.product_list ul{
+  margin: 0;
+}
+.search_product{
+  width: 400px;
+  margin: 10px;
+  height: 40px;
+  border: 1px,solid rgb(3, 181, 252);
+  border-radius: 20px;
+  padding-left: 20px;
+}
+.updatebtn{
+  text-decoration: none;
+  
+  color: skyblue;
+  
+}
+.deletebtn{
+  color: red;
+  border: red 1px solid;
+}
